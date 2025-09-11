@@ -213,3 +213,6 @@ __marimo__/
 
 *.wav
 *.onnx
+*.npy
+*datasets.txt
+cal*
