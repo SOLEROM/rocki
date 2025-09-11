@@ -35,6 +35,10 @@ On Rockchip, a standalone Transpose is usually treated as a layout/data-movement
 ## TestModel2 - Fold through a Conv
 
 
+x.permute(0,2,3,1) → NCHW → NHWC: (1,2,3,4) → (1,3,4,2)
+
+x.permute(0,3,1,2) → NHWC → NCHW: (1,3,4,2) → (1,2,3,4)
+
 
 ```
 class TP_Fold_Conv(nn.Module):
