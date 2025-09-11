@@ -4,6 +4,9 @@
 
 ## TestModel1 - problematic permute
 
+put it next to a Conv (or another NPU op) so the compiler can sink/absorb it.
+
+
 ```
 class TestModel1(nn.Module):
     def __init__(self, ):
@@ -50,5 +53,10 @@ class TP_Fold_Conv(nn.Module):
 
 D RKNN: [13:02:52.069] 1    Conv               FLOAT16  NPU    (1,2,3,4),(4,2,3,3)                      (1,4,3,4)              88/144/144               0            Conv:/conv/Conv 
 D RKNN: [13:02:52.069] 2    OutputOperator     FLOAT16  NPU    (1,4,3,4)                                \                      0/0/0                    0            OutputOperator:2
+
+
+
+
+this is npu shape is :      In-channels = 2, out-channels = 4, kernel=3, padding=1 
 
 ```
