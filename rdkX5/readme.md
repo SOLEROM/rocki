@@ -59,3 +59,10 @@ https://archive.d-robotics.cc/downloads/en/os_images/rdk_x5/rdk_os_3.2.3-2025-6-
 sudo srpi-config
 
 ```
+
+### changes
+
+* vnc; ``` pass = rock1234 ```
+* 
+
+

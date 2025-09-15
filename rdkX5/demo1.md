@@ -41,3 +41,6 @@ mipi_image_width:=640 mipi_image_height:=352 mipi_lpwm_enable:=True mipi_image_f
 need_rectify:=False height_min:=-10.0 height_max:=10.0 pc_max_depth:=5.0
 
 ```
+
+## web gui
+* check on port :8000
