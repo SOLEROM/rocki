@@ -14,3 +14,6 @@ supports 250ms fast picture capture and loading AI model library at the same tim
 
 ## audio
  built-in POR, audio codec and MAC PHY
+
+
+![alt text](image.png)

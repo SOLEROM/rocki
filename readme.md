@@ -1,7 +1,10 @@
 # rock[i]s
 
+* [rknn](./rknn/readme.md)
+    * [general convert script](./rknn/convert.py)
 
 * [picos](./picos/readme.md) - rv1006/rv1103
+    * [smokeapp](./picos/smokeAPP/readme.md)
 
 * [zero](./zero3w/readme.md) - RK3566
 
