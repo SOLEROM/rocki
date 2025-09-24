@@ -57,12 +57,26 @@ ioctl: VIDIOC_ENUM_FMT
 ```
 
 
+## get frame
 
+* stoop camera service
+
+```
 /oem/usr/bin/RkLunch-stop.sh
+```
 
+* take frame on the device:
 
+```
 WIDTH=1280       
 HEIGHT=720
 v4l2-ctl -d /dev/video11 \
          --set-fmt-video=width=$WIDTH,height=$HEIGHT,pixelformat=NV12 \
          --stream-mmap --stream-count=1 --stream-to=frame.nv12
+```
+
+* scp and convert on the host:
+
+```
+ffmpeg -f rawvideo -pix_fmt nv12 -s 1280x720 -i frame.nv12 -frames:v 1 frame.png
+```

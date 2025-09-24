@@ -1,4 +1,4 @@
-
+# yolov5
 
 conda activate RKNN-Toolkit2
 (RKNN-Toolkit2) user@RKNN4ALL:~/shared/zooLatest/rknn_model_zoo/examples/yolov5/python$ python  convert.py ../model/yolov5s_relu.onnx rv1103

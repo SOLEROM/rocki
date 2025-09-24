@@ -16,4 +16,9 @@ supports 250ms fast picture capture and loading AI model library at the same tim
  built-in POR, audio codec and MAC PHY
 
 
+## docs
+* https://github.com/as-jackson/Rockchip-Docs/tree/main
+
+## layout
+
 ![alt text](image.png)

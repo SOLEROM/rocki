@@ -278,5 +278,8 @@ cat /userdata/rkipc.ini | grep pass
 on host :
 
 ```
+ffplay -rtsp_transport tcp rtsp://admin:XXXXX@172.32.0.93:554/live/0
+
+
 ffplay -rtsp_transport tcp rtsp://admin:XXXXX@172.32.0.93:554/live/1
 ```
